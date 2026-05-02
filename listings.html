@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listings | US Builder Developers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">
+          <img src="images/logo.jpeg" alt="US Builder Developers logo" class="site-logo" />
+          <span>US Builder Developers</span>
+        </a>
+        <nav class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="listings.html" class="active">Listings</a>
+          <a href="services.html">Services</a>
+          <a href="testimonials.html">Testimonials</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a href="contact.html" class="button button-primary header-cta">Inquiry</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section listings-hero">
+        <div class="container">
+          <span class="eyebrow">Property Listings</span>
+          <h1>Discover Residential and Commercial Opportunities</h1>
+          <p>Filter by price, location, and type to uncover properties that match your vision.</p>
+        </div>
+      </section>
+
+      <section class="section filter-panel">
+        <div class="container filter-grid">
+          <div class="filter-group">
+            <label for="filter-type">Type</label>
+            <select id="filter-type">
+              <option value="all">All</option>
+              <option value="residential">Residential</option>
+              <option value="commercial">Commercial</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-location">Location</label>
+            <select id="filter-location">
+              <option value="all">All</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Bangalore">Bangalore</option>
+              <option value="Delhi">Delhi</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="filter-price">Price</label>
+            <select id="filter-price">
+              <option value="all">All</option>
+              <option value="0-75">Up to ₹75L</option>
+              <option value="75-150">₹75L - ₹1.5Cr</option>
+              <option value="150-999">Above ₹1.5Cr</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <section class="section properties-section">
+        <div class="container">
+          <div class="property-grid" id="property-grid">
+            <article class="property-card" data-type="residential" data-location="Mumbai" data-price="150">
+              <div class="property-image image-residential-1">
+                <div class="property-tag">Residential</div>
+              </div>
+              <div class="property-body">
+                <h3>Skyline Residences</h3>
+                <p class="property-meta">Mumbai · ₹1.5 Crore</p>
+                <ul class="property-features">
+                  <li>4 BHK</li>
+                  <li>Lake view</li>
+                  <li>Clubhouse</li>
+                </ul>
+                <div class="property-footer">
+                  <div class="property-map-mini">Location map preview</div>
+                  <p>Spacious apartments with premium finishes, rooftop amenities, and a serene urban setting.</p>
+                </div>
+                <a href="contact.html" class="button button-secondary">Inquire Now</a>
+              </div>
+            </article>
+
+            <article class="property-card" data-type="commercial" data-location="Delhi" data-price="200">
+              <div class="property-image image-commercial-1">
+                <div class="property-tag">Commercial</div>
+              </div>
+              <div class="property-body">
+                <h3>Prime Business Tower</h3>
+                <p class="property-meta">Delhi · ₹2.0 Crore</p>
+                <ul class="property-features">
+                  <li>Office Space</li>
+                  <li>High foot traffic</li>
+                  <li>Smart infrastructure</li>
+                </ul>
+                <div class="property-footer">
+                  <div class="property-map-mini">Location map preview</div>
+                  <p>Iconic commercial offices designed for corporate clients and growing enterprises.</p>
+                </div>
+                <a href="contact.html" class="button button-secondary">Inquire Now</a>
+              </div>
+            </article>
+
+            <article class="property-card" data-type="residential" data-location="Bangalore" data-price="85">
+              <div class="property-image image-residential-2">
+                <div class="property-tag">Residential</div>
+              </div>
+              <div class="property-body">
+                <h3>Serene Gardens</h3>
+                <p class="property-meta">Bangalore · ₹85 Lakh</p>
+                <ul class="property-features">
+                  <li>3 BHK</li>
+                  <li>Garden terraces</li>
+                  <li>Fitness center</li>
+                </ul>
+                <div class="property-footer">
+                  <div class="property-map-mini">Location map preview</div>
+                  <p>Green-living apartments in a quiet neighborhood with excellent connectivity.</p>
+                </div>
+                <a href="contact.html" class="button button-secondary">Inquire Now</a>
+              </div>
+            </article>
+
+            <article class="property-card" data-type="commercial" data-location="Mumbai" data-price="120">
+              <div class="property-image image-commercial-2">
+                <div class="property-tag">Commercial</div>
+              </div>
+              <div class="property-body">
+                <h3>Retail Avenue</h3>
+                <p class="property-meta">Mumbai · ₹1.2 Crore</p>
+                <ul class="property-features">
+                  <li>Retail outlet</li>
+                  <li>High visibility</li>
+                  <li>Flexible layout</li>
+                </ul>
+                <div class="property-footer">
+                  <div class="property-map-mini">Location map preview</div>
+                  <p>Premium retail space in a lively shopping district with strong customer appeal.</p>
+                </div>
+                <a href="contact.html" class="button button-secondary">Inquire Now</a>
+              </div>
+            </article>
+
+            <article class="property-card" data-type="residential" data-location="Delhi" data-price="55">
+              <div class="property-image image-residential-3">
+                <div class="property-tag">Residential</div>
+              </div>
+              <div class="property-body">
+                <h3>City View Villas</h3>
+                <p class="property-meta">Delhi · ₹55 Lakh</p>
+                <ul class="property-features">
+                  <li>2 BHK</li>
+                  <li>Private balcony</li>
+                  <li>Park access</li>
+                </ul>
+                <div class="property-footer">
+                  <div class="property-map-mini">Location map preview</div>
+                  <p>Affordable homes with smart layouts and easy access to local amenities.</p>
+                </div>
+                <a href="contact.html" class="button button-secondary">Inquire Now</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>US Builder Developers</h3>
+          <p>Modern real estate solutions for buyers, sellers, and investors.</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>+91 99203 46477</p>
+          <p>contact@usbuilderdevelopers.com</p>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-note">© 2026 US Builder Developers. All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

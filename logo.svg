@@ -1,0 +1,17 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="US Builder Developers logo">
+  <defs>
+    <linearGradient id="gradA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#23c0be"/>
+      <stop offset="42%" stop-color="#2f8faf"/>
+      <stop offset="100%" stop-color="#4c3cc9"/>
+    </linearGradient>
+    <linearGradient id="gradB" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3c75c8"/>
+      <stop offset="100%" stop-color="#e86c1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="#fff"/>
+  <path d="M24 24C24 18.477 28.477 14 34 14H44C53.941 14 62 22.059 62 32V76C62 86.941 53.941 95 44 95H34C28.477 95 24 90.523 24 85V24Z" fill="url(#gradA)"/>
+  <path d="M42 24C42 18.477 46.477 14 52 14H72C85.807 14 96 24.193 96 38.999C96 50.205 89.645 58.901 79.47 62.456C90.27 65.965 98 75.353 98 86.999C98 101.569 86.569 113 72 113H60C53.372 113 48 107.628 48 101V96C48 90.477 52.477 86 58 86H68C74.627 86 80 80.627 80 74C80 67.373 74.627 62 68 62H60C52.268 62 46 55.732 46 48C46 41.373 50.477 36 56 36H60C66.627 36 72 30.627 72 24H52C46.477 24 42 28.477 42 34V24Z" fill="url(#gradB)" opacity="0.95"/>
+  <circle cx="62" cy="38" r="11" fill="#fff" opacity="0.18"/>
+</svg>
