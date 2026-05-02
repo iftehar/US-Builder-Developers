@@ -1,0 +1,12 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#f0f9ff"/>
+  <rect x="50" y="50" width="300" height="150" fill="#0d5dff" rx="10"/>
+  <rect x="70" y="70" width="80" height="60" fill="#ffffff" rx="5"/>
+  <rect x="170" y="70" width="80" height="60" fill="#ffffff" rx="5"/>
+  <rect x="270" y="70" width="60" height="40" fill="#ffffff" rx="5"/>
+  <!-- Garden -->
+  <circle cx="100" cy="180" r="15" fill="#22c55e"/>
+  <circle cx="130" cy="175" r="12" fill="#22c55e"/>
+  <circle cx="160" cy="185" r="18" fill="#22c55e"/>
+  <text x="200" y="220" text-anchor="middle" fill="#333" font-family="Arial" font-size="14" font-weight="bold">Serene Gardens</text>
+</svg>

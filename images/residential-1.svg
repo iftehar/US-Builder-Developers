@@ -1,0 +1,8 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#e8f4fd"/>
+  <rect x="50" y="50" width="300" height="150" fill="#0d5dff" rx="10"/>
+  <rect x="70" y="70" width="80" height="60" fill="#ffffff" rx="5"/>
+  <rect x="170" y="70" width="80" height="60" fill="#ffffff" rx="5"/>
+  <rect x="270" y="70" width="60" height="40" fill="#ffffff" rx="5"/>
+  <text x="200" y="220" text-anchor="middle" fill="#333" font-family="Arial" font-size="14" font-weight="bold">Skyline Residences</text>
+</svg>

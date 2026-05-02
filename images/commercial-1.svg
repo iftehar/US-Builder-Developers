@@ -1,0 +1,11 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#e8f8f9"/>
+  <rect x="30" y="30" width="340" height="190" fill="#0b8a8c" rx="10"/>
+  <rect x="50" y="50" width="80" height="60" fill="#ffffff" rx="5"/>
+  <rect x="150" y="50" width="80" height="60" fill="#ffffff" rx="5"/>
+  <rect x="250" y="50" width="80" height="60" fill="#ffffff" rx="5"/>
+  <rect x="50" y="130" width="80" height="60" fill="#ffffff" rx="5"/>
+  <rect x="150" y="130" width="80" height="60" fill="#ffffff" rx="5"/>
+  <rect x="250" y="130" width="80" height="60" fill="#ffffff" rx="5"/>
+  <text x="200" y="220" text-anchor="middle" fill="#333" font-family="Arial" font-size="14" font-weight="bold">Prime Business Tower</text>
+</svg>
